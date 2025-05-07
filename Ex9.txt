@@ -1,0 +1,9 @@
+[student@fedora ~]$ su
+Password:
+[root@fedora student]# chkconfig --list
+
+
+[root@fedora student]# chkconfig --list | grep livesys
+
+
+[root@fedora student]# yum update all

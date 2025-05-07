@@ -1,0 +1,158 @@
+1. 
+total 4280
+-rw-r--r--.  1 student student 1890015 Jul 21  2022 7th-Std-Tamil-Book-Back-Questions.pdf
+drwxr-xr-x.  2 student student     0 Jan 27 09:43 Videos
+drwxr-xr-x.  2 student student     0 Jan 27 09:43 Templates
+drwxr-xr-x.  2 student student     0 Jan 27 09:43 Public
+drwxr-xr-x.  2 student student     0 Jan 27 09:43 Music
+drwxr-xr-x.  2 student student     0 Jan 27 09:43 Desktop
+drwxr-xr-x.  2 student student    56 Feb 15 08:18 Documents
+-rwxr--r--.  1 student student   906 Mar 10 09:06 Sam.sh
+-rw-r--r--.  1 student student     0 Mar 10 09:06 Sam1.txt
+-rw-r--r--.  1 student student     0 Mar 10 09:08 Sample.txt
+-rwxr-xr-x.  1 student student 26808 Apr 12 09:01 a.out
+-rw-r--r--.  1 student student  1518 Apr 12 09:13 sjfscheduling.c
+drwxr-xr-x.  2 student student     6 May  2 14:43 Downloads
+-rw-r--r--.  1 root    student 2455042 May  2 14:53 o-saft.tgz
+drwxr-xr-x.  2 student student    22 May  2 14:53 Pictures
+
+2.
+O-Saft/o-saft.pl
+O-Saft/o-saft.tcl
+O-Saft/o-saft-img.tcl
+O-Saft/checkallCiphers.pl
+O-Saft/yeast.pl
+O-Saft/o-saft
+O-Saft/o-saft.cgi
+O-Saft/o-saft.php
+O-Saft/contrib/o-saft-standalone.pl
+O-Saft/o-saft-docker
+O-Saft/o-saft-docker-dev
+O-Saft/Dockerfile
+O-Saft/osaft.pm
+O-Saft/Net/SSLInfo.pm
+O-Saft/Net/SSLhello.pm
+O-Saft/Net/SSL.pm
+O-Saft/Net/DNS.pm
+O-Saft/OSaft/Ciphers.pm
+O-Saft/OSaft/Date.pm
+O-Saft/OSaft/Text.pm
+O-Saft/OSaft/error_handler.pm
+O-Saft/OSaft/tbx.pm
+O-Saft/Makefile.opt
+O-Saft/Makefile.cmd
+O-Saft/Makefile.ext
+O-Saft/Makefile
+O-Saft/Makefile.cgl
+O-Saft/Makefile.misc
+O-Saft/Makefile.warnings
+O-Saft/Makefile.etc
+O-Saft/Makefile.template
+O-Saft/Makefile.docker
+O-Saft/Makefile.TOXP
+O-Saft/Makefile.examples
+O-Saft/perl-test.sh
+O-Saft/contrib/alertscript.cfg
+O-Saft/contrib/alertscript.pl
+O-Saft/contrib/bunt.pl
+O-Saft/contrib/symbol.pl
+O-Saft/contrib/cipher_check.sh
+O-Saft/contrib/critic.sh
+O-Saft/contrib/gen_standalone.sh
+O-Saft/contrib/distribution_install.sh
+O-Saft/contrib/install_openssl.sh
+O-Saft/contrib/install_perl_modules.pl
+O-Saft/contrib/INSTALL-template.sh
+O-Saft/contrib/Dockerfile.alpine.3.6
+O-Saft/contrib/zap_config.sh
+O-Saft/contrib/zap_config.xml
+O-Saft/INSTALL.sh
+
+3. 
+Installing:
+ perl                          x86_64     4:5.34.1-486.fc36        fedora       18 k
+Installing dependencies:
+ annobin-docs                  noarch     12.01-4.fc36             fedora       93 k
+ annobin-plugin-gcc            x86_64     12.01-4.fc36             updates     896 k
+
+ perl-Time                     noarch     1.03-486.fc36            fedora       18 k
+ perl-Time-HiRes               x86_64     1.9764-4.fc36            fedora       62 k
+ perl-Time-Piece               x86_64     1.3401-486.fc36          fedora       97 k
+ perl-Unicode-Collate         x86_64     1.29-486.fc36            fedora      828 k
+ perl-Unicode-Normalize       x86_64     1.32-486.fc36            fedora       89 k
+ perl-Unicode-UCD             noarch     0.76-486.fc36            fedora      356 k
+ perl-autouse                 noarch     1.11-486.fc36            fedora       19 k
+ perl-bignum                  noarch     0.63-486.fc36            fedora       48 k
+ perl-constant                noarch     1.33-486.fc36            fedora       26 k
+ perl-debugger                noarch     1.61-486.fc36            fedora      207 k
+ perl-deprecate               noarch     0.04-486.fc36            fedora       17 k
+ perl-devel                   x86_64     4:5.34.1-486.fc36        fedora      527 k
+ perl-diagnostics             noarch     1.40-486.fc36            fedora       46 k
+ perl-encoding                x86_64     4:3.06-485.fc36           updates      53 k
+
+4.
+= o-saft.pl +cipher rajalakshmi.org =
+WARNING: 149: no executable for '/usr/local/openssl/bin/openssl' found!
+WARNING: 409: SSLv2 does not support SNI; cipher checks are done without SNI
+WARNING: 409: SSLv3 does not support SNI; cipher checks are done without SNI
+
+=== Ciphers: Checking SSLv2 ===
+== Total number of checked ciphers    59
+
+=== Ciphers: Checking SSLv3 ===
+== Total number of checked ciphers   2640
+
+=== Ciphers: Checking TLSv1 ===
+ECDHE-RSA-AES256-SHA         yes   HIGH
+DHE-RSA-AES256-SHA           yes   HIGH
+DHE-RSA-CAMELLIA256-SHA      yes   HIGH
+ECDHE-RSA-AES128-SHA         yes   HIGH
+DHE-RSA-AES128-SHA           yes   HIGH
+DHE-RSA-CAMELLIA128-SHA      yes   HIGH
+AES256-SHA                   yes   HIGH
+AES128-SHA                   yes   HIGH
+CAMELLIA128-SHA              yes   MEDIUM
+CAMELLIA256-SHA              yes   MEDIUM
+SEED-SHA                     yes   MEDIUM
+IDEA-CBC-SHA                 yes   weak
+
+
+5.
+= o-saft.pl +version =
+WARNING: 149: no executable for '/usr/local/openssl/bin/openssl' found!
+ERROR: 007: Can't locate Net/DNS.pm
+WARNING: 111: option --wx disabled
+
+::SSL::VERSION_NUMBER()        0x30000000 (805306368)
+::SSL::VERSION()               0x30000020 (805306400)
+Net::SSLeay::SSLeay_version()  OpenSSL 3.0.2 15 Mar 2022
+
+external executable (TLSv1.3)       <executable not found>
+external executable                 openssl
+full path to openssl.cnf file       /usr/local/openssl/ssl/openssl.cnf
+common openssl.cnf files            /etc/ssl/openssl.cnf /usr/lib/ssl/openssl.cnf
+
+default openssl version             805306368
+compiled openssl version            805306400
+number of supported ciphers         0
+number of supported ciphers (intern) 2640
+= o-saft.pl +cipher --ciphermode=intern =
+  used cipherrange                intern
+  number of supported ciphers     2640
+  default list of ciphers         0x03000100 .. 0x0300013f, 0x0300f0e0 .. 0x0300ffff, 0x03000000 .. 0x0300ffff, ...
+                                   0x0300cc00 .. 0x0300ccff, 0x0300d000 .. 0x0300dfff, 0x03009aaa, 0x0300baaa, ...
+                                   0x0300caaa, 0x0300daaa, 0x0300aaaa, 0x0300eeee, 0x0300fafa, ...
+
+6.
+= Required (and used) Modules =
+@INC = ... /home/student/O-Saft . lib bin /usr/local/lib64/perl5/5.34 ...
+
+module name       VERSION       found in
+IO::Socket::INET  1.46          /usr/lib64/perl5/IO/Socket/INET.pm
+IO::Socket::SSL   2.074         /usr/share/perl5/vendor_perl/IO/Socket/SSL.pm
+Time::HiRes       1.3904        /usr/share/perl5/vendor_perl/Time/HiRes.pm
+Net::SSLeay       1.92          /usr/lib64/perl5/vendor_perl/Net/SSLeay.pm
+Net::SSLinfo      23.04.23      /home/student/O-Saft/Net/SSLInfo.pm
+Net::SSLhello     23.04.23      /home/student/O-Saft/Net/SSLhello.pm
+O-Saft::Ciphers   23.04.23      /home/student/O-Saft/O-Saft/Ciphers.pm
+osaft             23.04.23      /home/student/O-Saft/osaft.pm

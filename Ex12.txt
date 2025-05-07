@@ -1,0 +1,5 @@
+[root@kali] apt-get install bettercap
+
+bettercap> help
+
+[root@kali] htop

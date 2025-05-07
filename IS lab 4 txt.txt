@@ -1,0 +1,33 @@
+student@fedora ~]$ su  
+ Password:  
+ [root@fedora student]# yum install httpd  
+ 
+ Last metadata expiration check: 0:37:03 ago on Thu 30 Mar 2023 11:13:52 PM EDT.  
+ Package httpd-2.4.56-1.fc36.x86_64 is already installed.  
+ Dependencies resolved.  
+ Nothing to do.  
+ Complete!  
+ 
+ [root@fedora student]# systemctl start httpd  
+ [root@fedora student]# vi test1.html  
+ [root@fedora student]# cat test1.html  
+ This is test1 webpage  
+ 
+ [root@fedora student]# vi test2.html  
+ [root@fedora student]# cat test2.html  
+ This is second webpage  
+ 
+ [root@fedora student]# ls  
+ 
+ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  test1.html  test2.html  Videos  
+ 
+ [root@fedora student]# cp test1.html /var/www/html  
+ cp: overwrite '/var/www/html/test1.html'? ^C  
+ 
+ [root@fedora student]# ls -lZ /var/www/html/test*  
+ -rw-r--r--. 1 root root unconfined_u:object_r:httpd_sys_content_t:s0 0 Mar 30 23  
+ 
+ [root@fedora html]# chcon -R -t httpd_sys_content_t test2.html  
+ [root@fedora html]# ls -lZ test2.html  
+ -rw-r--r--. 1 root root unconfined_u:object_r:httpd_sys_content_t:s0 23 Mar 30 23:51 test2.html  
+ [root@fedora html]#  
